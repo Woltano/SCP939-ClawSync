@@ -1,0 +1,23 @@
+# Local build artifacts
+[Bb]in/
+[Oo]bj/
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.dll
+*.pdb
+*.nupkg
+*.zip
+
+# Local configuration and diagnostic files
+.env
+.env.*
+SERVER_PATH.txt
+BUILD_LOG.txt
+WYNIK*.txt
+*.log
+LabAPI/
+SCPSL_Data/
+*.mp3
