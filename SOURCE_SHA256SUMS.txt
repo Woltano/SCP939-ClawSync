@@ -1,0 +1,2 @@
+a364e31e291e13f996969186e5b27a77bdc94ccc34550db24b072e374ec3cfb9  src/SCP939ClawSync.cs
+cf6d3f6b0145f755be185e02765c0ee77d28ff7c34cf299a7693b9e7c7539a0b  src/Woltano_SCP939_ClawSwing.csproj

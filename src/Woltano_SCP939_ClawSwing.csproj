@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>Woltano_SCP939_ClawSwing</AssemblyName>
+    <RootNamespace>Woltano.SCP939.ClawSwing</RootNamespace>
+    <Version>1.0.0.0</Version>
+    <Deterministic>true</Deterministic>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LabAPI"><HintPath>$(SL_MANAGED)\LabAPI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>$(SL_MANAGED)\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-CSharp-firstpass"><HintPath>$(SL_MANAGED)\Assembly-CSharp-firstpass.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="CommandSystem.Core"><HintPath>$(SL_MANAGED)\CommandSystem.Core.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(SL_MANAGED)\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AnimationModule"><HintPath>$(SL_MANAGED)\UnityEngine.AnimationModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.PhysicsModule"><HintPath>$(SL_MANAGED)\UnityEngine.PhysicsModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Pooling"><HintPath>$(SL_MANAGED)\Pooling.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Mirror"><HintPath>$(SL_MANAGED)\Mirror.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
